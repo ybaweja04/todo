@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>To Do List</title>
+</head>
+
+<body onload="getLocalTodos()">
+
+    <header>
+        <h1>My To Do List</h1>
+    </header>
+    <div class="form">
+        <input type="text" id="todo-input">
+        <a class="todo-button">
+            +
+        </a>
+    </div>
+
+    <div class="todo-container">
+        <ul id="todo-list">
+
+        </ul>
+    </div>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
