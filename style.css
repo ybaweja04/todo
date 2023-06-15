@@ -9,7 +9,7 @@
 body
 {
     min-height: 100vh;
-    background:linear-gradient(#2b1055,#7597de,rgb(63, 194, 255),rgb(252, 185, 185),#ff5874);
+    background:linear-gradient(#2b1055,#7597de);
 }
 
 header {
