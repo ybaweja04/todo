@@ -37,7 +37,7 @@ header,
 }
 
 .form a {
-    color: rgb(255, 200, 0);
+    color: rgb(182, 127, 255);
     background: white;
     cursor: pointer;
     transition: all 0.3 ease;
@@ -49,7 +49,7 @@ header,
 
 .form a:hover {
     color: white;
-    background: rgb(255, 200, 0);
+    background: rgb(182, 127, 255);
 }
 
 .completed{
@@ -59,6 +59,7 @@ header,
 .todo-container{
     font-size: 22px;
     display: flex;
+    /* text-align: center; */
     margin-left: 38.5%;
     /* justify-content: center; */
 }
@@ -84,4 +85,32 @@ header,
 }
 .todo-item{
     color: aliceblue;
+}
+
+@media screen and (max-width: 420px){
+    .form input{
+        width: 300px;
+    }
+    
+}
+@media screen and (max-width: 350px){
+    .form input{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .todo-container{
+        margin-left: 28.5%;
+    }
+}
+@media screen and (max-width: 600px){
+    .todo-container{
+        margin-left: 22.5%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .todo-container{
+        margin-left: 15.5%;
+    }
 }
